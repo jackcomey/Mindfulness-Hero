@@ -158,3 +158,35 @@ hr {
     margin: 20px;
     font-size: 280%;
 }
+
+
+/* footer */
+
+footer {
+	background-color: #008080;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+	
+}
+
+footer > span {
+	color: #fff;
+}
+
+footer > a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+footer > p {
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #800000;
