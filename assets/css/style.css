@@ -101,62 +101,11 @@ h1, h2 {
 
 /* reasons to be a hero */
 
-#reasons {
-    height: 600px;
-}
-
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
-    
-}
-
-hr {
-    border-top: 1px solid #008080;
-    width: 100%;
-    margin: 5px;
-}
-
-.left-about-heading {
-    width: 33.3%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 33.3%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.center-about-heading {
-    width: 33.3%;
-    margin: 0 auto;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
 
 #welcome {
     text-align: center;
     margin: 20px;
-    font-size: 280%;
+    font-size: 250%;
 }
 
 
@@ -173,7 +122,7 @@ footer {
 }
 
 footer > span {
-	color: #fff;
+	color: #008080;
 }
 
 footer > a {
@@ -190,3 +139,4 @@ footer > p {
 a:hover {
 	text-decoration: none;
 	color: #800000;
+}
