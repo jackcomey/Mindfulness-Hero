@@ -108,6 +108,15 @@ h1, h2 {
     font-size: 250%;
 }
 
+#container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column {
+    max-width: 25%;
+}
+
 
 /* footer */
 
