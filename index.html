@@ -18,10 +18,10 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="#">Articles</a>
+                    <a href="#">Sign Up</a>
                 </li>
                 <li>
-                    <a href="#">Meditations</a>
+                    <a href="#">Meditate</a>
                 </li>
                 <li>
                     <a href="index.html" class="active">Home</a>
@@ -113,7 +113,7 @@
     </section>
 
     <section>
-        <h2 id="welcome">Meditations</h2>
+        <h2 id="welcome">Meditate</h2>
         <div class="wrapper">
             <div class="video-wrapper">
                 <iframe src="https://www.youtube.com/embed/vj0JDwQLof4" title="Self Love Meditation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -121,9 +121,44 @@
         </div>        
     </section>
 
-    <section>Articles</section>
+    <section>
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">  
+            <h2>Sign up to start your hero journey!</h2>  
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first_name" class="text-input" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="last_name" class="text-input" required>
+            
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" class="text-input" required>
 
-    <section>Signup</section>
+            <p>
+                What Can We Help You With?
+            </p>
+
+            <label for="sleep">Improve sleep</label>
+            <input type="checkbox" id="sleep" name="signup_reason" value="sleep">
+
+            <label for="stress">Reduce stress</label>
+            <input type="checkbox" id="stress" name="signup_reason" value="stress">
+
+            <label for="both">Improve focus</label>
+            <input type="checkbox" id="focus" name="signup_reason" value="focus">
+
+            <label for="both">Reduce anxiety</label>
+            <input type="checkbox" id="anxiety" name="signup_reason" value="anxiety">
+
+            <label for="both">General self-improvement</label>
+            <input type="checkbox" id="self-improvement" name="signup_reason" value="self-improvement">
+
+            <label for="both">Something else</label>
+            <input type="checkbox" id="something-else " name="signup_reason" value="something-else">
+
+            <input class="join-button" type="submit" value="Become a Hero">
+
+        </form>   
+        </section>
 
     <footer class="text-uppercase">
 
