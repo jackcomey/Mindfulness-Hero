@@ -99,7 +99,7 @@ h1, h2 {
 }
 
 
-/* reasons to be a hero */
+/* reasons to be a hero and hero stories */
 
 
 #welcome {
@@ -111,11 +111,24 @@ h1, h2 {
 #container {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .column {
     max-width: 25%;
 }
+
+/*media query from kevin powell learn flexbox tutorial */
+@media (min-width: 700px) {
+    #container {
+        flex-direction: row;
+    }
+}
+
+/* Hero Stories */
+
+
 
 
 /* footer */
