@@ -128,7 +128,36 @@ h1, h2 {
 
 /* Hero Stories */
 
+/* Meditate */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    height: 450px;
+    
+}
+
+.video-wrapper {
+    justify-content: center;
+    display: flex;
+    height: 100%;
+
+}
+
+.video-wrapper iframe {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;  
+    height: 100%;
+    width: 50%;
+    
+}
 
 
 /* footer */
