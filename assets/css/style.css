@@ -66,6 +66,15 @@ h1, h2 {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #cover-text {
+        left: 0;
+    }
+
+    .welcome {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 /* hero image & cover text*/
@@ -127,7 +136,7 @@ h1, h2 {
 }
 
 .column {
-    min-width: 25%;
+    margin: 0 auto;
 }
 
 /*media query from kevin powell learn flexbox tutorial */
@@ -135,8 +144,10 @@ h1, h2 {
 @media (min-width: 750px) {
     .container {
         flex-direction: row;
-    }
+        }
 }
+
+
 
 
 
