@@ -162,11 +162,11 @@ h1, h2 {
 /* sign up form */
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 20px auto;
     color: #fff;
     background-color: #008080;
     max-width: 400px;
-    display: inline-block;
+    display: block
     left: 10%;
     padding: 30px;
 }
@@ -204,7 +204,7 @@ h1, h2 {
 
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #800000;
 }
 
 
