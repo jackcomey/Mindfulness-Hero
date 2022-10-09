@@ -102,13 +102,13 @@ h1, h2 {
 /* reasons to be a hero and hero stories */
 
 
-#welcome {
+.welcome {
     text-align: center;
     margin: 20px;
     font-size: 250%;
 }
 
-#container {
+.container {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -116,15 +116,18 @@ h1, h2 {
 }
 
 .column {
-    max-width: 25%;
+    min-width: 25%;
 }
 
 /*media query from kevin powell learn flexbox tutorial */
-@media (min-width: 700px) {
-    #container {
+
+@media (min-width: 750px) {
+    .container {
         flex-direction: row;
     }
 }
+
+
 
 /* Hero Stories */
 
@@ -159,6 +162,13 @@ h1, h2 {
     
 }
 
+@media (max-width: 1600px) {
+    .video-wrapper iframe {
+        min-width: 100%;
+    }
+}
+
+
 /* sign up form */
 
 .signup-form {
@@ -166,7 +176,7 @@ h1, h2 {
     color: #fff;
     background-color: #008080;
     max-width: 400px;
-    display: block
+    display: block;
     left: 10%;
     padding: 30px;
 }
