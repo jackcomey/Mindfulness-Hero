@@ -142,6 +142,7 @@ h2 {
     justify-content: space-evenly;
     flex-direction: column;
     gap: 2rem;
+    padding: 0 1.5rem;
 }
 
 .column {
@@ -206,7 +207,7 @@ h2 {
     align-items: center;
     flex-direction: column;
     padding: 40px;
-    border-bottom: 1 px solid rgba(0, 0, 0, 0.5)
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5)
 }
 
 
@@ -222,7 +223,7 @@ h2 {
 .blog-box {
     width: 350px;
     background-color: #fff;
-    background-color: 1px solid #ececee;
+    background-color: #ececee;
     margin: 20px;
 }
 
@@ -242,6 +243,10 @@ h2 {
     padding: 30px;
     display: flex;
     flex-direction: column;
+}
+
+#blog-article {
+    padding: 0 1.5rem 1.5rem 1.5rem;
 }
 
 .blog-text span {
@@ -310,6 +315,11 @@ header {
 
         #blog {
             padding: 20px;
+        }
+
+        #article-heading {
+            font-size: 150%;
+            padding: 1rem;
         }
 
     }
