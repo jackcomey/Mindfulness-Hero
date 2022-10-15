@@ -1,3 +1,70 @@
+# MINDFULNESS HERO
+Mindfulness Hero is a website that helps to inspire people to mediate and be more mindful. The aim of the website is to provide information on the benfits associated with mindfulness & mediation with the end goal of having people signup. 
+
+![Resposive](assets/readme-images/amiresponsive.png)
+
+## Features
+
+### Existing Features
+
+- **Navigation Bar**
+    -  The navigation bar is at the very top of the page on the landing page as well as the article pages. It is identical on each page and allows for easy navigation. 
+    - At the top left is the logo of MINDFULNESS HERO. On the right hand side of the navigation bar is the other navigation links which are Home, Meditate, Articles and Signup. This make everything easy and aaccessible.All of these links will bring the user to the relevant section on the landing page.
+
+![Navigation](assets/readme-images/navigation.png)
+
+- **Landing Page Image**
+    - Near the top of the webpage there is an image looking out on a peaceful ocean and beach. This gives the user a feel for what the website is all about.
+    - There is a text overlay on the image letting the user know what the goal of the webiste is. This in combination with the image lets the user know that they are in a calm safe space. 
+
+![Landing](assets/readme-images/landing-page-image.png)
+
+- **Reasons To Be a Hero Section**
+    - The reasons to be a a hero section shows the user the benfits of becoming a part of the community as well as using mindfulness & meditation practices and the benefits they will gain overall. 
+    - Once they see the benfits this should encourage the user to signup and interact more with the website. 
+
+![Reasons](assets/readme-images/reasons.png)
+
+
+- **Meditate Section**
+    - This is a 10 minute guided mediation. The meditation video gives the user a feel for the video content they can expect should they sign up. This should help with encouraging the user to interact with the website. 
+
+![Meditate](assets/readme-images/meditate.png)
+
+- **Hero Stories Section**
+    - The hero stories section gives a background of some of the current users of the Mindfulness Heros and what they have experienced since siging up. 
+    - Once a users hears of some of the benefits that others  have experierienced this should encourage them to interact more with the website and sign up. 
+
+![Stories](assets/readme-images/stories.png)
+
+- **Recent Articles Section**
+    - The recent articles sections gives the user access to the some of the most recent articles posted on the site. This again gives them a feel for the type of content they can expect if they decide to sign up. 
+    - Each article brings the user to a new page. They can simply close the window when they are done reading the article and continue navigating through the site from the landing page. 
+
+![Articles](assets/readme-images/articles.png)
+
+- **Sign Up**
+    - The sign up allows the user to get signed up to Mindfulness Heros to begin their journey and get more access to content. 
+    - The signup form collects first name, last name & email address. 
+    - The user also has the choice to advise why they are sigining up through a checkbox. It could be to help to Improve sleep, Reduce stress, Improve focus, Reduce anxiety, General self-improvement or other. This helps in creating a tailored signup & could assist in tailoring specific content towards certain users after signup. 
+
+![Signup](assets/readme-images/signup.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome jackcomey,
