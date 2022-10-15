@@ -135,6 +135,7 @@ h2 {
     text-align: center;
     margin: 20px;
     font-size: 250%;
+    padding: 1.5rem 0 0 0;
 }
 
 .container {
@@ -207,7 +208,6 @@ h2 {
     align-items: center;
     flex-direction: column;
     padding: 40px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5)
 }
 
 
@@ -291,13 +291,16 @@ header {
 
 #article-heading {
     text-align: center;
-
 }
 
 
     @media screen and (max-width: 1250px) {
         .blog-box {
             width: 300px;
+        }
+
+        #article-heading {
+            font-size: 150%;
         }
     }
 
@@ -318,8 +321,9 @@ header {
         }
 
         #article-heading {
-            font-size: 150%;
+            font-size: 125%;
             padding: 1rem;
+            display: flex;
         }
 
     }
