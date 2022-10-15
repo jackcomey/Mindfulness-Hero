@@ -50,7 +50,11 @@ Mindfulness Hero is a website that helps to inspire people to mediate and be mor
 
 ![Signup](assets/readme-images/signup.png)
 
+- **Footer**
+    - The footer section contains the social media links for Facebook, Instagram & TikTok. This will let the user find & interact with Mindfulness Hero on social media.
+    - It also contains copyright information. 
 
+![Signup](assets/readme-images/footer.png)
 
 
 
