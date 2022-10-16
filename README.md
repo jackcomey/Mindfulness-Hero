@@ -45,7 +45,7 @@ Mindfulness Hero is a website that helps to inspire people to mediate and be mor
 
 - **Recent Articles Section**
     - The recent articles sections gives the user access to the some of the most recent articles posted on the site. This again gives them a feel for the type of content they can expect if they decide to sign up. 
-    - Each article brings the user to a new page. They can simply close the window when they are done reading the article and continue navigating through the site from the landing page. 
+    - Each article brings the user to a new page. They can simply close the window when they are done reading the article and continue navigating through the site from the landing page. They also have the option to navigate back to the homepage 
 
 ![Articles](assets/readme-images/articles.png)
 
